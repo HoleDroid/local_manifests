@@ -6,6 +6,10 @@
 
           fetch="https://github.com/HoleDroid" />
 
+  <remote name="Tiktodz"
+
+          fetch="https://github.com/Tiktodz" />
+
   <remote name="cbendot"
 
           fetch="https://github.com/cbendot" />
