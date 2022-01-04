@@ -5,21 +5,11 @@
           fetch="https://github.com/HoleDroid" />
   <remote name="Kneba"
           fetch="https://github.com/Kneba" />
-  <remote  name="hals"
-          fetch="https://github.com/ArrowOS" />
 
   <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="HoleDroid" revision="12" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="HoleDroid" revision="12" />
         <project path="vendor/asus" name="name="proprietary_vendor_asus" remote="HoleDroid" revision="12" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="bpflv" />
-
-  <!-- Hals -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="hals" revision="arrow-12.0-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="hals" revision="arrow-12.0-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="hals" revision="arrow-12.0-caf-msm8998" />
 
 </manifest>
