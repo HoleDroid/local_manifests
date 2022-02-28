@@ -7,20 +7,16 @@
           fetch="https://github.com/travarilo" />
   <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
-  <remote name="komodo"
-          fetch="https://github.com/Komodo-OS" />
+  <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="Device_Asus_X00T-1" remote="HoleDroid" revision="lineage-17.1" />
         <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="HoleDroid" revision="lineage-17.1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="travarilo" revision="master" />
-
-        <!-- Prebuilts -->
-        <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
  
         <!-- Prebuilts -->
-        <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" remote="komodo" revision="11" />
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+        <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="ArrowOS" revision="arrow-10.0" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
 </manifest>
