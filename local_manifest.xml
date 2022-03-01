@@ -3,7 +3,7 @@
 
   <remote name="HoleDroid"
           fetch="https://github.com/HoleDroid" />
-  <remote name="travarilo"
+  <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
   <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />
@@ -12,8 +12,5 @@
         <project path="device/asus/X00T" name="Device_Asus_X00T-1" remote="HoleDroid" revision="lineage-17.1" />
         <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="HoleDroid" revision="lineage-17.1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="main" />
- 
-        <!-- Prebuilts -->
-        <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="ArrowOS" revision="arrow-10.0" />
 
 </manifest>
