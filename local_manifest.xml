@@ -3,6 +3,7 @@
 
   <remote name="HoleDroid"
           fetch="https://github.com/HoleDroid" />
+
   <remote name="travarilo"
           fetch="https://github.com/travarilo" />
 
@@ -10,5 +11,8 @@
         <project path="device/asus/X00T" name="Device_Asus_X00T-1" remote="HoleDroid" revision="lineage-17.1" />
         <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="HoleDroid" revision="lineage-17.1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="travarilo" revision="master" />
+
+        <remove-project name="LineageOS/android_vendor_lineage" />
+        <project path="vendor/lineage" name="android_vendor_lineage" remote="HoleDroid" revision="lineage-17.1" />
 
 </manifest>
