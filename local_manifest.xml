@@ -14,7 +14,7 @@
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="HoleDroid" revision="13" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="HoleDroid" revision="13" />
         <project path="vendor/asus" name="android_vendor_asus" remote="HoleDroid" revision="13" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-4.19" remote="RyuujiX" revision="r2/s" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" remote="RyuujiX" revision="r2/s" />
 
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="Amritorock" revision="master" />
